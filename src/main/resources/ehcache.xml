@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+	<!--如果缓存中的对象存储超过指定的缓存数量的对象存储的磁盘地址 -->
+	<diskStore path="java.io.tmpdir" />
+	<defaultCache maxElementsInMemory="10000"   
+        eternal="false"   
+        timeToIdleSeconds="1000"   
+        timeToLiveSeconds="1000"  
+        overflowToDisk="false"   
+        memoryStoreEvictionPolicy="LRU"/>  
+</ehcache>
